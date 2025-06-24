@@ -5,8 +5,8 @@ import os
 import asyncio
 from dotenv import load_dotenv
 
-st.set_page_config(page_title="*Doctor Agent*",  page_icon="🩺", layout="wide")
-st.title("Doctor Agent 🩺")
+st.set_page_config(page_title="Doctor Agent",  page_icon="🩺", layout="wide")
+st.title("*Doctor Agent* 🩺")
 st.write("### This agent provides medical advice and treatment plans.📃 ###")
 
 # Load environment variables from .env file
